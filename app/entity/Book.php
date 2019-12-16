@@ -182,6 +182,7 @@ class Book extends Entity
                     $id_publish = $row['publish_id'];
 
                 // если у автора только одна книга удаляем сзфть автор - издальство
+                    if($id_publish){
                     $sql8 = "SELECT COUNT(*) as quantity
                 FROM books
                 INNER JOIN author_books
@@ -212,7 +213,7 @@ class Book extends Entity
                             throw new \Exception($stmt->error);
                         }
                     }
-
+                    }
                 }
             }
             $stmt = $this->connection->prepare("UPDATE books SET publish_id=? WHERE id=?");
