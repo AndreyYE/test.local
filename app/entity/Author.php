@@ -157,7 +157,14 @@ class Author extends Entity
                 }
             }
         }
-
+            
+            //удаляем все записи из таблицы author_publishes
+            $sql = "DELETE FROM author_publishes WHERE author_id = $id";
+            var_dump($conn->query($sql));
+            if(!$conn->query($sql)){
+                throw new \Exception('Failed to delete bind author to publisher');
+            }
+            
         //удаляем автора
         $sql = "DELETE FROM authors WHERE id = $id";
         if(!$conn->query($sql)){
