@@ -192,7 +192,7 @@ class Book extends Entity
                  ";
                     $result = $conn->query($sql8);
                     if($result->fetch_assoc()['quantity']<=1){
-                        $sql3 = "DELETE FROM author_publishes WHERE author_id = $item and publish_id = (SELECT publish_id FROM books WHERE id=$id)";
+                        $sql3 = "DELETE FROM author_publishes WHERE author_id = $id_author and publish_id = (SELECT publish_id FROM books WHERE id=$id)";
                         if(!$conn->query($sql3)){
                             throw new \Exception('Failed to untie the author from the publisher');
                         }
