@@ -181,9 +181,9 @@ class Book extends Entity
                     $id_author = $row['author_id'];
                     $id_publish = $row['publish_id'];
 
-                // если у автора только одна книга удаляем сзфть автор - издальство
-                    if($id_publish){
-                    $sql8 = "SELECT COUNT(*) as quantity
+                // если у автора только одна книга удаляем связь автор - издальство
+                    if($id_publish) {
+                        $sql8 = "SELECT COUNT(*) as quantity
                 FROM books
                 INNER JOIN author_books
                 ON author_books.book_id=books.id
@@ -191,11 +191,12 @@ class Book extends Entity
                 ON author_books.author_id=authors.id
                 WHERE authors.id=$id_author and publish_id=$id_publish
                  ";
-                    $result = $conn->query($sql8);
-                    if($result->fetch_assoc()['quantity']<=1){
-                        $sql3 = "DELETE FROM author_publishes WHERE author_id = $id_author and publish_id = (SELECT publish_id FROM books WHERE id=$id)";
-                        if(!$conn->query($sql3)){
-                            throw new \Exception('Failed to untie the author from the publisher');
+                        $result = $conn->query($sql8);
+                        if ($result->fetch_assoc()['quantity'] <= 1) {
+                            $sql3 = "DELETE FROM author_publishes WHERE author_id = $id_author and publish_id = (SELECT publish_id FROM books WHERE id=$id)";
+                            if (!$conn->query($sql3)) {
+                                throw new \Exception('Failed to untie the author from the publisher');
+                            }
                         }
                     }
                     // проверяем есть ли связь автор и нового издалельства, если есть ничего не делает, если нет тогда добавляем новую связь
@@ -212,7 +213,6 @@ class Book extends Entity
                         if(!$stmt->execute()) {
                             throw new \Exception($stmt->error);
                         }
-                    }
                     }
                 }
             }

@@ -37,9 +37,7 @@ class Login extends Entity
         if(!password_verify($password, $password_hash)){
             throw new \Exception('Your password is not correct');
         }
-
-        $token = password_hash($password.$email, PASSWORD_DEFAULT);
-        $time = CURRENT_TIME;
+        $token = md5(password_hash($password.$email, PASSWORD_DEFAULT));
         $sql = "UPDATE users SET token_access='$token' WHERE email='$email'";
 
         if (!$this->connection->query($sql) === TRUE) {
