@@ -1,0 +1,3 @@
+<br />
+<b>Notice</b>:  Undefined offset: 0 in <b>C: \xampp\htdocs\test.local\app\api\Api.php</b> on line <b>73</b><br />
+["Cannot add or update a child row: a foreign key constraint fails (`test1`.`author_books`, CONSTRAINT `FK_book` FOREIGN KEY (`book_id`) REFERENCES `books` (`id`))"]

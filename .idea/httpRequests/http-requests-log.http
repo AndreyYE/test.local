@@ -1,0 +1,600 @@
+DELETE http://test.local/api/author/20
+Accept: */*
+Cache-Control: no-cache
+Content-Type: application/x-www-form-urlencoded
+Authorization: 42e77a99fb1a24bd8b38360e22803bf9
+
+name=change_book4&id=54&publish_id=5&add_authors=26&untie=21
+
+<> 2019-12-16T061426.200.json
+
+###
+
+DELETE http://test.local/api/publish/20
+Accept: */*
+Cache-Control: no-cache
+Content-Type: application/x-www-form-urlencoded
+Authorization: 42e77a99fb1a24bd8b38360e22803bf9
+
+name=change_book4&id=54&publish_id=5&add_authors=26&untie=21
+
+<> 2019-12-16T061357.200.json
+
+###
+
+PUT http://test.local/api/book/
+Accept: */*
+Cache-Control: no-cache
+Content-Type: application/x-www-form-urlencoded
+Authorization: 42e77a99fb1a24bd8b38360e22803bf9
+
+name=change_book4&id=54&publish_id=5&add_authors=26&untie=21
+
+<> 2019-12-16T060911.200.json
+
+###
+
+PUT http://test.local/api/book/
+Accept: */*
+Cache-Control: no-cache
+Content-Type: application/x-www-form-urlencoded
+Authorization: 42e77a99fb1a24bd8b38360e22803bf9
+
+name=change_book4&id=54&publish_id=5&add_authors=26&untie=21
+
+<> 2019-12-16T060824.200.json
+
+###
+
+PUT http://test.local/api/book/
+Accept: */*
+Cache-Control: no-cache
+Content-Type: application/x-www-form-urlencoded
+Authorization: 42e77a99fb1a24bd8b38360e22803bf9
+
+name=change_book4&id=54&publish_id=5&add_authors=26&untie=21
+
+<> 2019-12-16T060757.200.json
+
+###
+
+PUT http://test.local/api/book/
+Accept: */*
+Cache-Control: no-cache
+Content-Type: application/x-www-form-urlencoded
+Authorization: 42e77a99fb1a24bd8b38360e22803bf9
+
+name=change_book4&id=54&publish_id=5&add_authors=26&untie=21
+
+<> 2019-12-16T060419.200.json
+
+###
+
+PUT http://test.local/api/book/
+Accept: */*
+Cache-Control: no-cache
+Content-Type: application/x-www-form-urlencoded
+Authorization: 42e77a99fb1a24bd8b38360e22803bf9
+
+name=change_book4&id=54&publish_id=5&add_authors=26&untie=21
+
+<> 2019-12-16T060220.200.json
+
+###
+
+PUT http://test.local/api/book/
+Accept: */*
+Cache-Control: no-cache
+Content-Type: application/x-www-form-urlencoded
+Authorization: 42e77a99fb1a24bd8b38360e22803bf9
+
+name=change_book4&id=54&publish_id=5&add_authors=26&untie=21
+
+<> 2019-12-16T060201.200.json
+
+###
+
+PUT http://test.local/api/book/
+Accept: */*
+Cache-Control: no-cache
+Content-Type: application/x-www-form-urlencoded
+Authorization: 42e77a99fb1a24bd8b38360e22803bf9
+
+name=change_book4&id=49&publish_id=5&add_authors=26&untie=18,19,20
+
+<> 2019-12-16T050344.200.json
+
+###
+
+PUT http://test.local/api/book/
+Accept: */*
+Cache-Control: no-cache
+Content-Type: application/x-www-form-urlencoded
+Authorization: 42e77a99fb1a24bd8b38360e22803bf9
+
+name=change_book3&id=49&publish_id=6&add_authors=18,19,20&untie=26
+
+<> 2019-12-16T050207.200.json
+
+###
+
+PUT http://test.local/api/book/
+Accept: */*
+Cache-Control: no-cache
+Content-Type: application/x-www-form-urlencoded
+Authorization: 42e77a99fb1a24bd8b38360e22803bf9
+
+name=change_book3&id=49&publish_id=6
+
+<> 2019-12-16T050132.200.json
+
+###
+
+PUT http://test.local/api/book/
+Accept: */*
+Cache-Control: no-cache
+Content-Type: application/x-www-form-urlencoded
+Authorization: 42e77a99fb1a24bd8b38360e22803bf9
+
+name=change_book3&id=49&publish_id=6
+
+<> 2019-12-16T050048.200.json
+
+###
+
+PUT http://test.local/api/book/
+Accept: */*
+Cache-Control: no-cache
+Content-Type: application/x-www-form-urlencoded
+Authorization: 42e77a99fb1a24bd8b38360e22803bf9
+
+name=change_book3&id=49&publish_id=6
+
+<> 2019-12-16T050020.200.json
+
+###
+
+PUT http://test.local/api/book/
+Accept: */*
+Cache-Control: no-cache
+Content-Type: application/x-www-form-urlencoded
+Authorization: 42e77a99fb1a24bd8b38360e22803bf9
+
+name=change_book3&id=49&publish_id=6&add_authors=18,19,20&untie=26
+
+<> 2019-12-16T045947.200.json
+
+###
+
+PUT http://test.local/api/book/
+Accept: */*
+Cache-Control: no-cache
+Content-Type: application/x-www-form-urlencoded
+Authorization: 42e77a99fb1a24bd8b38360e22803bf9
+
+name=change_book3&id=59&publish_id=6&add_authors=18,19,20&untie=26
+
+<> 2019-12-16T045903.500.json
+
+###
+
+POST http://test.local/api/publish/
+Accept: */*
+Cache-Control: no-cache
+Content-Type: application/x-www-form-urlencoded
+Authorization: 42e77a99fb1a24bd8b38360e22803bf9
+
+name=change_book1&id=50&publish_id=6&add_authors=26&untie=27
+
+<> 2019-12-16T045709.200.json
+
+###
+
+DELETE http://test.local/api/publish/4
+Accept: */*
+Cache-Control: no-cache
+Content-Type: application/x-www-form-urlencoded
+Authorization: 42e77a99fb1a24bd8b38360e22803bf9
+
+name=change_book1&id=50&publish_id=6&add_authors=26&untie=27
+
+<> 2019-12-16T045642.200.json
+
+###
+
+DELETE http://test.local/api/publish/3
+Accept: */*
+Cache-Control: no-cache
+Content-Type: application/x-www-form-urlencoded
+Authorization: 42e77a99fb1a24bd8b38360e22803bf9
+
+name=change_book1&id=50&publish_id=6&add_authors=26&untie=27
+
+<> 2019-12-16T045628.200.json
+
+###
+
+GET http://test.local/api/publish/3
+Accept: */*
+Cache-Control: no-cache
+Content-Type: application/x-www-form-urlencoded
+Authorization: 42e77a99fb1a24bd8b38360e22803bf9
+
+name=change_book1&id=50&publish_id=6&add_authors=26&untie=27
+
+<> 2019-12-16T045622.200.json
+
+###
+
+GET http://test.local/api/publish
+Accept: */*
+Cache-Control: no-cache
+Content-Type: application/x-www-form-urlencoded
+Authorization: 42e77a99fb1a24bd8b38360e22803bf9
+
+name=change_book1&id=50&publish_id=6&add_authors=26&untie=27
+
+<> 2019-12-16T045618.200.json
+
+###
+
+DELETE http://test.local/api/publish
+Accept: */*
+Cache-Control: no-cache
+Content-Type: application/x-www-form-urlencoded
+Authorization: 42e77a99fb1a24bd8b38360e22803bf9
+
+name=change_book1&id=50&publish_id=6&add_authors=26&untie=27
+
+<> 2019-12-16T045612.500.json
+
+###
+
+DELETE http://test.local/api/book/48
+Accept: */*
+Cache-Control: no-cache
+Content-Type: application/x-www-form-urlencoded
+Authorization: 42e77a99fb1a24bd8b38360e22803bf9
+
+name=change_book1&id=50&publish_id=6&add_authors=26&untie=27
+
+<> 2019-12-16T045548.200.json
+
+###
+
+DELETE http://test.local/api/book/51
+Accept: */*
+Cache-Control: no-cache
+Content-Type: application/x-www-form-urlencoded
+Authorization: 42e77a99fb1a24bd8b38360e22803bf9
+
+name=change_book1&id=50&publish_id=6&add_authors=26&untie=27
+
+<> 2019-12-16T045304.200.json
+
+###
+
+DELETE http://test.local/api/book/50
+Accept: */*
+Cache-Control: no-cache
+Content-Type: application/x-www-form-urlencoded
+Authorization: 42e77a99fb1a24bd8b38360e22803bf9
+
+name=change_book1&id=50&publish_id=6&add_authors=26&untie=27
+
+<> 2019-12-16T045215.200.json
+
+###
+
+DELETE http://test.local/api/book/26
+Accept: */*
+Cache-Control: no-cache
+Content-Type: application/x-www-form-urlencoded
+Authorization: 42e77a99fb1a24bd8b38360e22803bf9
+
+name=change_book1&id=50&publish_id=6&add_authors=26&untie=27
+
+<> 2019-12-16T045143.200.json
+
+###
+
+PUT http://test.local/api/book/38
+Accept: */*
+Cache-Control: no-cache
+Content-Type: application/x-www-form-urlencoded
+Authorization: 42e77a99fb1a24bd8b38360e22803bf9
+
+name=change_book1&id=50&publish_id=6&add_authors=26&untie=27
+
+<> 2019-12-16T045041.200.json
+
+###
+
+DELETE http://test.local/api/book/38
+Accept: */*
+Cache-Control: no-cache
+Content-Type: application/x-www-form-urlencoded
+Authorization: 42e77a99fb1a24bd8b38360e22803bf9
+
+name=change_book1&id=38&publish_id=5&add_authors=18
+
+<> 2019-12-16T044430.200.json
+
+###
+
+PUT http://test.local/api/book/38
+Accept: */*
+Cache-Control: no-cache
+Content-Type: application/x-www-form-urlencoded
+Authorization: 42e77a99fb1a24bd8b38360e22803bf9
+
+name=change_book1&id=38&publish_id=5&add_authors=18
+
+<> 2019-12-16T044410.500.json
+
+###
+
+PUT http://test.local/api/book/38
+Accept: */*
+Cache-Control: no-cache
+Content-Type: application/x-www-form-urlencoded
+Authorization: 42e77a99fb1a24bd8b38360e22803bf9
+
+name=change_book1&id=38&publish_id=5&add_authors=18
+
+<> 2019-12-16T044218.200.json
+
+###
+
+PUT http://test.local/api/book/38
+Accept: */*
+Cache-Control: no-cache
+Content-Type: application/x-www-form-urlencoded
+Authorization: 42e77a99fb1a24bd8b38360e22803bf9
+
+name=change_book1&id=38&publish_id=5&add_authors=18
+
+<> 2019-12-16T043942.500.json
+
+###
+
+PUT http://test.local/api/book/38
+Accept: */*
+Cache-Control: no-cache
+Content-Type: application/x-www-form-urlencoded
+Authorization: 42e77a99fb1a24bd8b38360e22803bf9
+
+name=change_book1&id=38&publish_id=5&add_authors=18
+
+<> 2019-12-16T043547.500.json
+
+###
+
+PUT http://test.local/api/book/38
+Accept: */*
+Cache-Control: no-cache
+Content-Type: application/x-www-form-urlencoded
+Authorization: 42e77a99fb1a24bd8b38360e22803bf9
+
+name=change_book1&id=38&publish_id=5&add_authors=18
+
+<> 2019-12-16T043454.500.json
+
+###
+
+PUT http://test.local/api/book/38
+Accept: */*
+Cache-Control: no-cache
+Content-Type: application/x-www-form-urlencoded
+Authorization: 42e77a99fb1a24bd8b38360e22803bf9
+
+name=change_book1&id=38&publish_id=5&add_authors=18
+
+<> 2019-12-16T043318.500.json
+
+###
+
+PUT http://test.local/api/book/38
+Accept: */*
+Cache-Control: no-cache
+Content-Type: application/x-www-form-urlencoded
+Authorization: 42e77a99fb1a24bd8b38360e22803bf9
+
+name=change_book1&id=38&publish_id=4&add_authors=18
+
+<> 2019-12-16T043252.500.json
+
+###
+
+PUT http://test.local/api/book/38
+Accept: */*
+Cache-Control: no-cache
+Content-Type: application/x-www-form-urlencoded
+Authorization: 42e77a99fb1a24bd8b38360e22803bf9
+
+name=change_book&id=38&publish_id=4&untie=18
+
+<> 2019-12-16T043142.200.json
+
+###
+
+DELETE http://test.local/api/book/37
+Accept: */*
+Cache-Control: no-cache
+Content-Type: application/x-www-form-urlencoded
+Authorization: 42e77a99fb1a24bd8b38360e22803bf9
+
+name=change_name&id=18&untie=37&add_books=38
+
+<> 2019-12-16T042906.200.json
+
+###
+
+GET http://test.local/api/book/37
+Accept: */*
+Cache-Control: no-cache
+Content-Type: application/x-www-form-urlencoded
+Authorization: 42e77a99fb1a24bd8b38360e22803bf9
+
+name=change_name&id=18&untie=37&add_books=38
+
+<> 2019-12-16T042855.200.json
+
+###
+
+GET http://test.local/api/book
+Accept: */*
+Cache-Control: no-cache
+Content-Type: application/x-www-form-urlencoded
+Authorization: 42e77a99fb1a24bd8b38360e22803bf9
+
+name=change_name&id=18&untie=37&add_books=38
+
+<> 2019-12-16T042849.200.json
+
+###
+
+PUT http://test.local/api/book
+Accept: */*
+Cache-Control: no-cache
+Content-Type: application/x-www-form-urlencoded
+Authorization: 42e77a99fb1a24bd8b38360e22803bf9
+
+name=change_name&id=18&untie=37&add_books=38
+
+<> 2019-12-16T042836.200.json
+
+###
+
+PUT http://test.local/api/author/
+Accept: */*
+Cache-Control: no-cache
+Content-Type: application/x-www-form-urlencoded
+Authorization: 42e77a99fb1a24bd8b38360e22803bf9
+
+name=change_name&id=18&untie=37&add_books=38
+
+<> 2019-12-16T042815.200.json
+
+###
+
+DELETE http://test.local/api/author/17
+Accept: */*
+Cache-Control: no-cache
+Content-Type: application/x-www-form-urlencoded
+Authorization: 42e77a99fb1a24bd8b38360e22803bf9
+
+email=qqq@gmail.com&password=11111111
+
+<> 2019-12-16T042358.200.json
+
+###
+
+DELETE http://test.local/api/author/17
+Accept: */*
+Cache-Control: no-cache
+Content-Type: application/x-www-form-urlencoded
+Authorization: 42e77a99fb1a24bd8b38360e22803bf9
+
+email=qqq@gmail.com&password=11111111
+
+<> 2019-12-16T042341.200.json
+
+###
+
+DELETE http://test.local/api/author/17
+Accept: */*
+Cache-Control: no-cache
+Content-Type: application/x-www-form-urlencoded
+Authorization: 42e77a99fb1a24bd8b38360e22803bf9
+
+email=qqq@gmail.com&password=11111111
+
+<> 2019-12-16T042340.200.json
+
+###
+
+DELETE http://test.local/api/author/17
+Accept: */*
+Cache-Control: no-cache
+Content-Type: application/x-www-form-urlencoded
+Authorization: 42e77a99fb1a24bd8b38360e22803bf9
+
+email=qqq@gmail.com&password=11111111
+
+<> 2019-12-16T042339.200.json
+
+###
+
+DELETE http://test.local/api/author/17
+Accept: */*
+Cache-Control: no-cache
+Content-Type: application/x-www-form-urlencoded
+Authorization: 42e77a99fb1a24bd8b38360e22803bf9
+
+email=qqq@gmail.com&password=11111111
+
+<> 2019-12-16T042044.200.json
+
+###
+
+DELETE http://test.local/api/author/20
+Accept: */*
+Cache-Control: no-cache
+Content-Type: application/x-www-form-urlencoded
+Authorization: 42e77a99fb1a24bd8b38360e22803bf9
+
+email=qqq@gmail.com&password=11111111
+
+<> 2019-12-16T042030.200.json
+
+###
+
+DELETE http://test.local/api/author/20
+Accept: */*
+Cache-Control: no-cache
+Content-Type: application/x-www-form-urlencoded
+Authorization: 42e77a99fb1a24bd8b38360e22803bf9
+
+email=qqq@gmail.com&password=11111111
+
+<> 2019-12-16T041955.200.json
+
+###
+
+DELETE http://test.local/api/author/20
+Accept: */*
+Cache-Control: no-cache
+Content-Type: application/x-www-form-urlencoded
+Authorization: 42e77a99fb1a24bd8b38360e22803bf9
+
+email=qqq@gmail.com&password=11111111
+
+<> 2019-12-16T041928.200.json
+
+###
+
+DELETE http://test.local/api/author/19
+Accept: */*
+Cache-Control: no-cache
+Content-Type: application/x-www-form-urlencoded
+Authorization: 42e77a99fb1a24bd8b38360e22803bf9
+
+email=qqq@gmail.com&password=11111111
+
+<> 2019-12-16T041922.200.json
+
+###
+
+DELETE http://test.local/api/author/18
+Accept: */*
+Cache-Control: no-cache
+Content-Type: application/x-www-form-urlencoded
+Authorization: 42e77a99fb1a24bd8b38360e22803bf9
+
+email=qqq@gmail.com&password=11111111
+
+<> 2019-12-16T041919.200.json
+
+###
+

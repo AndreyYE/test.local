@@ -1,0 +1,22 @@
+object(mysqli_result)#5 (5) {
+["current_field"]=>
+int(0)
+["field_count"]=>
+int(2)
+["lengths"]=>
+NULL
+["num_rows"]=>
+int(1)
+["type"]=>
+int(0)
+}
+string(8) "author26"
+string(7) "publish"
+<br />
+<b>Fatal error</b>: Uncaught Error: Call to a member function fetch_assoc() on bool in C: \xampp\htdocs\test.local\app\entity\Book.php: 196
+Stack trace: #0 C: \xampp\htdocs\test.local\app\api\Book.php(60): app\entity\Book-&gt;update()
+#1 C: \xampp\htdocs\test.local\app\api\Api.php(51): app\api\Book-&gt;updateAction()
+#2 C: \xampp\htdocs\test.local\index.php(6): app\api\Api-&gt;run()
+#3 {main
+}
+thrown in <b>C: \xampp\htdocs\test.local\app\entity\Book.php</b> on line <b>196</b><br />

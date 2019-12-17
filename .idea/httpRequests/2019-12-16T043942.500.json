@@ -1,0 +1,7 @@
+string(2) "18"
+string(1) "4"
+<br />
+<b>Notice</b>:  Undefined variable: item in <b>C: \xampp\htdocs\test.local\app\entity\Book.php</b> on line <b>196</b><br />
+<br />
+<b>Notice</b>: Undefined offset: 0 in <b>C: \xampp\htdocs\test.local\app\api\Api.php</b> on line <b>73</b><br />
+["Failed to untie the author from the publisher"]
