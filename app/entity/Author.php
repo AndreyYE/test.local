@@ -127,7 +127,7 @@ class Author extends Entity
         }
         try{
         $conn = $this->connection;
-        $conn->begin_transaction();
+       // $conn->begin_transaction();
 
         //удаляем все связи из таблицы author_books
         $sql2 = "SELECT book_id FROM author_books WHERE author_id = $id";
@@ -157,16 +157,23 @@ class Author extends Entity
                 }
             }
         }
+        //удаляем все записи из таблицы author_publishes
+        $sql = "DELETE FROM author_publishes WHERE author_id = $id";
+        var_dump($conn->query($sql));
+        if(!$conn->query($sql)){
+            throw new \Exception('Failed to delete bind author to publisher');
+        }
 
         //удаляем автора
         $sql = "DELETE FROM authors WHERE id = $id";
+        var_dump($conn->query($sql));
         if(!$conn->query($sql)){
-            throw new \Exception('Failed to delete author');
+            throw new \Exception('Failed to delete author 111');
         }
 
-        $conn->commit();
+       // $conn->commit();
         }catch (\Exception $e){
-            $conn->rollback();
+           // $conn->rollback();
             return $e->getMessage();
         }
 
