@@ -2,8 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="2896e928-34f4-48ba-9dad-b73a044c3350" name="Default" comment="">
-      <change beforePath="$PROJECT_DIR$/app/entity/Author.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/entity/Author.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/entity/Book.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/entity/Book.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/.idea/httpRequests/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -81,9 +80,6 @@
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
-  <component name="HighlightingSettingsPerFile">
-    <setting file="dummy://restClient/response15.json" root0="SKIP_INSPECTION" />
-  </component>
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
@@ -137,37 +133,6 @@
             <path>
               <item name="test.local" type="b2602c69:ProjectViewProjectNode" />
               <item name="test.local" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="test.local" type="b2602c69:ProjectViewProjectNode" />
-              <item name="test.local" type="462c0819:PsiDirectoryNode" />
-              <item name="app" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="test.local" type="b2602c69:ProjectViewProjectNode" />
-              <item name="test.local" type="462c0819:PsiDirectoryNode" />
-              <item name="app" type="462c0819:PsiDirectoryNode" />
-              <item name="api" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="test.local" type="b2602c69:ProjectViewProjectNode" />
-              <item name="test.local" type="462c0819:PsiDirectoryNode" />
-              <item name="app" type="462c0819:PsiDirectoryNode" />
-              <item name="api" type="462c0819:PsiDirectoryNode" />
-              <item name="Auth" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="test.local" type="b2602c69:ProjectViewProjectNode" />
-              <item name="test.local" type="462c0819:PsiDirectoryNode" />
-              <item name="app" type="462c0819:PsiDirectoryNode" />
-              <item name="entity" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="test.local" type="b2602c69:ProjectViewProjectNode" />
-              <item name="test.local" type="462c0819:PsiDirectoryNode" />
-              <item name="app" type="462c0819:PsiDirectoryNode" />
-              <item name="entity" type="462c0819:PsiDirectoryNode" />
-              <item name="Auth" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
@@ -1717,6 +1682,8 @@
       <workItem from="1576491690926" duration="1217000" />
       <workItem from="1576501946516" duration="3109000" />
       <workItem from="1576508348441" duration="1016000" />
+      <workItem from="1576558794993" duration="965000" />
+      <workItem from="1576559874203" duration="261000" />
     </task>
     <task id="LOCAL-00001" summary="'test project'">
       <created>1576492521343</created>
@@ -1725,11 +1692,18 @@
       <option name="project" value="LOCAL" />
       <updated>1576492521343</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="'замена архива тест на тест1'">
+      <created>1576559309322</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1576559309322</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="99232000" />
+    <option name="totallyTimeSpent" value="100458000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -1742,24 +1716,25 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1696" height="1026" extended-state="6" />
+    <editor active="true" />
     <layout>
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.27506113" />
       <window_info anchor="bottom" id="TODO" order="6" weight="0.32995495" />
+      <window_info anchor="bottom" id="Docker" order="7" show_stripe_button="false" />
       <window_info anchor="bottom" id="Event Log" order="11" side_tool="true" weight="0.32995495" />
+      <window_info anchor="right" id="Database" order="3" weight="0.3294621" />
       <window_info anchor="bottom" id="Database Changes" order="8" show_stripe_button="false" />
-      <window_info active="true" anchor="bottom" id="REST Client" order="12" visible="true" weight="0.6486486" />
       <window_info anchor="bottom" id="Version Control" order="10" weight="0.32995495" />
       <window_info anchor="bottom" id="Run" order="2" />
-      <window_info anchor="bottom" id="Terminal" order="9" weight="0.32995495" />
-      <window_info content_ui="combo" id="Project" order="0" weight="0.2720049" />
-      <window_info anchor="bottom" id="Docker" order="7" show_stripe_button="false" />
-      <window_info anchor="right" id="Database" order="3" weight="0.3294621" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
+      <window_info anchor="bottom" id="Terminal" order="9" weight="0.6362613" />
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
+      <window_info active="true" anchor="bottom" id="REST Client" order="12" visible="true" weight="0.6486486" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Find" order="1" />
@@ -1795,7 +1770,8 @@
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="'test project'" />
-    <option name="LAST_COMMIT_MESSAGE" value="'test project'" />
+    <MESSAGE value="'замена архива тест на тест1'" />
+    <option name="LAST_COMMIT_MESSAGE" value="'замена архива тест на тест1'" />
   </component>
   <component name="editorHistoryManager">
     <entry file="file://$PROJECT_DIR$/app/entity/Publish.php">
