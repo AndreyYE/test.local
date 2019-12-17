@@ -1,6 +1,6 @@
 <?php
 require_once ('app/api/Filter_Api.php');
-$environment = require_once __DIR__.'/environment.php';
+$environment = require_once __DIR__ . '/environment.php';
 try {
     $api = new \app\api\Filter_Api($environment);
     $api->run_api()->run();
