@@ -16,7 +16,8 @@ use app\entity\Register;
 require_once __DIR__."/Author.php";
 require_once __DIR__."/Book.php";
 require_once __DIR__."/Publish.php";
-require_once __DIR__ . "/Description.php";
+require_once __DIR__ ."/Description.php";
+require_once __DIR__."/EditAuthorAndBooks.php";
 require_once __DIR__."/Auth/Registration.php";
 require_once __DIR__."/Auth/Login.php";
 
@@ -43,8 +44,13 @@ class Filter_Api
     public function run_api()
     {
         $uri = explode('/', trim($_SERVER['REQUEST_URI'],'/'));
+        $count_uri =count($uri);
+        if(strripos($count_uri>1 ? $uri[1]: '','ustom?')){
+            $desc = new EditAuthorAndBooks($this->env);
+            return $desc;
+        };
         if(count($uri)==1){
-            $desc = new Description();
+            $desc = new Description($this->env);
             return $desc;
         }else{
             if($uri[1]==='registration'){
